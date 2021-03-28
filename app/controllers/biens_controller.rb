@@ -1,4 +1,5 @@
 class BiensController < ApplicationController
+  
   CURRENT_YEAR = 2021
   CURRENT_START_PERIOD = Date.new(CURRENT_YEAR)
   CURRENT_END_PERIOD = Date.new(CURRENT_YEAR + 1) - 1.day
