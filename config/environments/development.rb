@@ -66,4 +66,5 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = { :address => '127.0.0.1', :port => 1025 }
   # p "je usi sla"
   # p config.action_mailer.smtp_settings
+  config.hosts << /[a-z0-9]+\.c9users\.io/
 end
